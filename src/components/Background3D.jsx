@@ -1,7 +1,6 @@
 import { useRef, useMemo } from 'react'
 import { Canvas, useFrame } from '@react-three/fiber'
 import { Float, Stars } from '@react-three/drei'
-import * as THREE from 'three'
 
 // Floating particles component
 function FloatingParticles({ count = 200 }) {
@@ -37,7 +36,7 @@ function FloatingParticles({ count = 200 }) {
       </bufferGeometry>
       <pointsMaterial
         size={0.05}
-        color="#6366f1"
+        color="#f59e0b"
         transparent
         opacity={0.6}
         sizeAttenuation
@@ -118,7 +117,7 @@ function AnimatedTorus({ position }) {
       <mesh ref={mesh} position={position}>
         <torusKnotGeometry args={[1, 0.3, 100, 16]} />
         <meshStandardMaterial
-          color="#8b5cf6"
+          color="#f97316"
           wireframe
           transparent
           opacity={0.2}
@@ -137,8 +136,8 @@ export default function Background3D() {
         style={{ background: 'transparent' }}
       >
         <ambientLight intensity={0.5} />
-        <pointLight position={[10, 10, 10]} intensity={1} color="#6366f1" />
-        <pointLight position={[-10, -10, -10]} intensity={0.5} color="#ec4899" />
+        <pointLight position={[10, 10, 10]} intensity={1} color="#f59e0b" />
+        <pointLight position={[-10, -10, -10]} intensity={0.5} color="#ea580c" />
         
         <Stars
           radius={50}
@@ -152,13 +151,13 @@ export default function Background3D() {
         
         <FloatingParticles count={300} />
         
-        <FloatingShape position={[-6, 3, -5]} color="#6366f1" speed={0.8} />
-        <FloatingShape position={[6, -2, -3]} color="#8b5cf6" speed={1.2} />
-        <FloatingShape position={[-4, -4, -4]} color="#ec4899" speed={1} />
+        <FloatingShape position={[-6, 3, -5]} color="#f59e0b" speed={0.8} />
+        <FloatingShape position={[6, -2, -3]} color="#f97316" speed={1.2} />
+        <FloatingShape position={[-4, -4, -4]} color="#ea580c" speed={1} />
         
-        <GlowingOrb position={[5, 4, -8]} color="#6366f1" size={0.5} />
-        <GlowingOrb position={[-5, -3, -6]} color="#ec4899" size={0.4} />
-        <GlowingOrb position={[3, -5, -10]} color="#8b5cf6" size={0.6} />
+        <GlowingOrb position={[5, 4, -8]} color="#f59e0b" size={0.5} />
+        <GlowingOrb position={[-5, -3, -6]} color="#ea580c" size={0.4} />
+        <GlowingOrb position={[3, -5, -10]} color="#f97316" size={0.6} />
         
         <AnimatedTorus position={[0, 0, -15]} />
       </Canvas>

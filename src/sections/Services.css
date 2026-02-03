@@ -10,7 +10,7 @@
   left: -10%;
   width: 600px;
   height: 600px;
-  background: radial-gradient(circle, rgba(99, 102, 241, 0.08) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(245, 158, 11, 0.08) 0%, transparent 70%);
   border-radius: 50%;
   filter: blur(100px);
 }
@@ -66,7 +66,7 @@
   width: 70px;
   height: 70px;
   border-radius: var(--radius-lg);
-  background: linear-gradient(135deg, rgba(99, 102, 241, 0.2) 0%, rgba(139, 92, 246, 0.1) 100%);
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.2) 0%, rgba(249, 115, 22, 0.1) 100%);
   display: flex;
   align-items: center;
   justify-content: center;

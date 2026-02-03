@@ -9,35 +9,35 @@ const services = [
     icon: '🔍',
     title: 'SEO',
     description: 'Strategic keyword research, optimized content structure, quality link-building, and long-term organic growth.',
-    color: '#6366f1'
+    color: '#f59e0b'
   },
   {
     id: 2,
     icon: '📱',
     title: 'Social Media Marketing',
     description: 'Consistent planning, creative content execution, and data-driven platform management focused on enhancing brand visibility and user engagement.',
-    color: '#8b5cf6'
+    color: '#f97316'
   },
   {
     id: 3,
     icon: '💻',
     title: 'Website Development',
     description: 'Responsive, fast, and visually compelling websites developed with functionality and user experience at the core.',
-    color: '#ec4899'
+    color: '#ea580c'
   },
   {
     id: 4,
     icon: '📊',
     title: 'SEM',
     description: 'Precision-targeted advertising, optimized audience segmentation, and performance monitoring to maximize reach and engagement.',
-    color: '#14b8a6'
+    color: '#d97706'
   },
   {
     id: 5,
     icon: '🎨',
     title: 'Graphic Designing',
     description: 'Thoughtful visual design, cohesive branding elements, and engaging creative assets developed to strengthen recognition.',
-    color: '#f59e0b'
+    color: '#fbbf24'
   }
 ]
 
